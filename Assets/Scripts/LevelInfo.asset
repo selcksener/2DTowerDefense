@@ -1,0 +1,186 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc9d8d7024d4a0545a52214cc0844547, type: 3}
+  m_Name: LevelInfo
+  m_EditorClassIdentifier: 
+  levelDatas:
+  - levelID: 0
+    levelBorderInfo:
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    - {x: 2, y: 1}
+    - {x: 3, y: 1}
+    - {x: 4, y: 1}
+    - {x: 5, y: 1}
+    - {x: 6, y: 1}
+    - {x: 7, y: 1}
+    - {x: 8, y: 1}
+    - {x: 9, y: 1}
+    - {x: 10, y: 1}
+    - {x: 11, y: 1}
+    - {x: 12, y: 1}
+    - {x: 13, y: 1}
+    - {x: 14, y: 1}
+    - {x: 15, y: 1}
+    - {x: 16, y: 1}
+    - {x: 17, y: 1}
+    - {x: 18, y: 1}
+    - {x: 18, y: 2}
+    - {x: 18, y: 3}
+    - {x: 18, y: 4}
+    - {x: 18, y: 5}
+    - {x: 18, y: 6}
+    - {x: 18, y: 7}
+    - {x: 18, y: 8}
+    - {x: 18, y: 9}
+    - {x: 18, y: 10}
+    - {x: 18, y: 11}
+    - {x: 17, y: 11}
+    - {x: 16, y: 11}
+    - {x: 15, y: 11}
+    - {x: 14, y: 11}
+    - {x: 13, y: 11}
+    - {x: 12, y: 11}
+    - {x: 11, y: 11}
+    - {x: 10, y: 11}
+    - {x: 9, y: 11}
+    - {x: 8, y: 11}
+    - {x: 7, y: 11}
+    - {x: 6, y: 11}
+    - {x: 5, y: 11}
+    - {x: 4, y: 11}
+    - {x: 3, y: 11}
+    - {x: 2, y: 11}
+    - {x: 1, y: 11}
+    - {x: 0, y: 11}
+    - {x: 0, y: 10}
+    - {x: 0, y: 9}
+    - {x: 0, y: 8}
+    - {x: 0, y: 7}
+    - {x: 0, y: 6}
+    - {x: 0, y: 5}
+    - {x: 0, y: 4}
+    - {x: 0, y: 3}
+    - {x: 0, y: 2}
+    levelBorderCornerInfo:
+    - {x: 0, y: 1}
+    - {x: 18, y: 1}
+    - {x: 18, y: 11}
+    - {x: 0, y: 11}
+    levelPathInfo:
+    - {x: 2, y: 4}
+    - {x: 3, y: 4}
+    - {x: 4, y: 4}
+    - {x: 5, y: 4}
+    - {x: 6, y: 4}
+    - {x: 6, y: 5}
+    - {x: 6, y: 6}
+    - {x: 6, y: 7}
+    - {x: 6, y: 8}
+    - {x: 7, y: 8}
+    - {x: 8, y: 8}
+    - {x: 9, y: 8}
+    - {x: 10, y: 8}
+    - {x: 11, y: 8}
+    - {x: 12, y: 8}
+    - {x: 13, y: 8}
+    - {x: 14, y: 8}
+    - {x: 15, y: 8}
+    - {x: 15, y: 7}
+    - {x: 15, y: 6}
+    - {x: 15, y: 5}
+    - {x: 15, y: 4}
+    - {x: 15, y: 3}
+    levelBuildableInfo:
+    - {x: 5, y: 5}
+    - {x: 11, y: 9}
+    levelWaypointInfo:
+    - {x: 2, y: 4}
+    - {x: 6, y: 4}
+    - {x: 6, y: 8}
+    - {x: 15, y: 8}
+    - {x: 15, y: 2}
+    levelEnvironmentData:
+    - LevelEnvironmentKey: House1
+      LevelEnvironementValue: {x: 9, y: 4}
+    - LevelEnvironmentKey: House2
+      LevelEnvironementValue: {x: 2, y: 9}
+    - LevelEnvironmentKey: Grass1
+      LevelEnvironementValue: {x: 5, y: 10}
+    - LevelEnvironmentKey: Grass1
+      LevelEnvironementValue: {x: 13, y: 10}
+    - LevelEnvironmentKey: Grass1
+      LevelEnvironementValue: {x: 16, y: 7}
+    - LevelEnvironmentKey: Grass1
+      LevelEnvironementValue: {x: 13, y: 2}
+    - LevelEnvironmentKey: Grass1
+      LevelEnvironementValue: {x: 13, y: 5}
+    - LevelEnvironmentKey: Grass1
+      LevelEnvironementValue: {x: 17, y: 4}
+    - LevelEnvironmentKey: Grass2
+      LevelEnvironementValue: {x: 8, y: 10}
+    - LevelEnvironmentKey: Grass2
+      LevelEnvironementValue: {x: 2, y: 7}
+    - LevelEnvironmentKey: Grass2
+      LevelEnvironementValue: {x: 9, y: 2}
+    - LevelEnvironmentKey: Grass2
+      LevelEnvironementValue: {x: 11, y: 6}
+    - LevelEnvironmentKey: Grass2
+      LevelEnvironementValue: {x: 8, y: 7}
+    - LevelEnvironmentKey: Grass2
+      LevelEnvironementValue: {x: 16, y: 9}
+    - LevelEnvironmentKey: Grass3
+      LevelEnvironementValue: {x: 1, y: 2}
+    - LevelEnvironmentKey: Grass3
+      LevelEnvironementValue: {x: 17, y: 2}
+    - LevelEnvironmentKey: Grass3
+      LevelEnvironementValue: {x: 11, y: 10}
+    - LevelEnvironmentKey: Grass3
+      LevelEnvironementValue: {x: 13, y: 7}
+    - LevelEnvironmentKey: Grass3
+      LevelEnvironementValue: {x: 11, y: 3}
+    - LevelEnvironmentKey: Rock1
+      LevelEnvironementValue: {x: 17, y: 10}
+    - LevelEnvironmentKey: Log
+      LevelEnvironementValue: {x: 1, y: 10}
+    - LevelEnvironmentKey: Tree1
+      LevelEnvironementValue: {x: 13, y: 3}
+    - LevelEnvironmentKey: Tree1
+      LevelEnvironementValue: {x: 4, y: 2}
+    - LevelEnvironmentKey: Tree1
+      LevelEnvironementValue: {x: 7, y: 10}
+    - LevelEnvironmentKey: Tree2
+      LevelEnvironementValue: {x: 17, y: 5}
+    - LevelEnvironmentKey: Tree2
+      LevelEnvironementValue: {x: 16, y: 10}
+    - LevelEnvironmentKey: Tree3
+      LevelEnvironementValue: {x: 4, y: 7}
+    enemyStartInfo: {x: 1, y: 4}
+    enemyEndInfo: {x: 15, y: 2}
+    centerGridInfo: {x: 0, y: 0}
+    levelWaveData:
+    - timeBetweenEnemySpawn: 3
+      timeDecrease: 0
+      minTimeBetweenEnemySpawn: 1
+      enemyDatas:
+      - enemyType: 0
+        enemyCount: 3
+    - timeBetweenEnemySpawn: 3
+      timeDecrease: 0.05
+      minTimeBetweenEnemySpawn: 1
+      enemyDatas:
+      - enemyType: 0
+        enemyCount: 10
+      - enemyType: 1
+        enemyCount: 4
+      - enemyType: 2
+        enemyCount: 2
