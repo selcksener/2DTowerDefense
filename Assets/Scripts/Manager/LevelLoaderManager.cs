@@ -46,10 +46,10 @@ public class LevelLoaderManager : MonoBehaviour
 
     public LevelInfo levelInfo;// Level bilgisini saklayan
 
-    [Header("Level Key-Value")] public List<LevelGeneratorType> levelKey = new List<LevelGeneratorType>();
-    public List<CellType> cellKey = new List<CellType>();
-    public List<LevelGeneratorReference> levelValue = new List<LevelGeneratorReference>();
+    [Header("Level Key-Value")]
+    public List<LevelGeneratorReference> levelGeneratorReferenceList = new List<LevelGeneratorReference>();
     public List<LevelLoadEnvironmentReference> levelEnvironmentReference = new List<LevelLoadEnvironmentReference>();
+    public Dictionary<LevelGeneratorType, Sprite> levelGeneratorInfo = new Dictionary<LevelGeneratorType, Sprite>();
 
     [Header("Lists")] public List<ControlGrid> controlGridInfos = new List<ControlGrid>();// Level yolları için komşu kontrol bilgisi
     public List<Vector2> pathInfo = new List<Vector2>();//Level yol bilgisi
@@ -59,7 +59,11 @@ public class LevelLoaderManager : MonoBehaviour
 
     private void Awake()
     {
-
+        for (int i = 0; i < levelGeneratorReferenceList.Count; i++)
+        {
+            levelGeneratorInfo.Add(levelGeneratorReferenceList[i].type, levelGeneratorReferenceList[i].image);
+        }
+       
     }
 
 
@@ -124,7 +128,7 @@ public class LevelLoaderManager : MonoBehaviour
 [System.Serializable]
 public class LevelGeneratorReference
 {
-    public Color color;
+    public LevelGeneratorType type;
     public Sprite image;
 }
 

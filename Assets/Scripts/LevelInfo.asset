@@ -77,15 +77,16 @@ MonoBehaviour:
     - {x: 18, y: 11}
     - {x: 0, y: 11}
     levelPathInfo:
-    - {x: 2, y: 4}
-    - {x: 3, y: 4}
-    - {x: 4, y: 4}
-    - {x: 5, y: 4}
-    - {x: 6, y: 4}
-    - {x: 6, y: 5}
-    - {x: 6, y: 6}
-    - {x: 6, y: 7}
-    - {x: 6, y: 8}
+    - {x: 2, y: 3}
+    - {x: 3, y: 3}
+    - {x: 4, y: 3}
+    - {x: 5, y: 3}
+    - {x: 6, y: 3}
+    - {x: 7, y: 3}
+    - {x: 7, y: 4}
+    - {x: 7, y: 5}
+    - {x: 7, y: 6}
+    - {x: 7, y: 7}
     - {x: 7, y: 8}
     - {x: 8, y: 8}
     - {x: 9, y: 8}
@@ -95,77 +96,108 @@ MonoBehaviour:
     - {x: 13, y: 8}
     - {x: 14, y: 8}
     - {x: 15, y: 8}
-    - {x: 15, y: 7}
-    - {x: 15, y: 6}
-    - {x: 15, y: 5}
-    - {x: 15, y: 4}
-    - {x: 15, y: 3}
+    - {x: 16, y: 8}
+    - {x: 16, y: 7}
+    - {x: 16, y: 6}
+    - {x: 16, y: 5}
+    - {x: 16, y: 4}
+    - {x: 16, y: 3}
     levelBuildableInfo:
-    - {x: 5, y: 5}
-    - {x: 11, y: 9}
-    levelWaypointInfo:
-    - {x: 2, y: 4}
     - {x: 6, y: 4}
-    - {x: 6, y: 8}
-    - {x: 15, y: 8}
-    - {x: 15, y: 2}
+    - {x: 12, y: 9}
+    levelWaypointInfo:
+    - {x: 2, y: 3}
+    - {x: 7, y: 3}
+    - {x: 7, y: 8}
+    - {x: 16, y: 8}
+    - {x: 16, y: 2}
     levelEnvironmentData:
-    - LevelEnvironmentKey: House1
-      LevelEnvironementValue: {x: 9, y: 4}
-    - LevelEnvironmentKey: House2
-      LevelEnvironementValue: {x: 2, y: 9}
     - LevelEnvironmentKey: Grass1
-      LevelEnvironementValue: {x: 5, y: 10}
+      LevelEnvironementValue: {x: 4, y: 8}
     - LevelEnvironmentKey: Grass1
-      LevelEnvironementValue: {x: 13, y: 10}
+      LevelEnvironementValue: {x: 2, y: 5}
     - LevelEnvironmentKey: Grass1
-      LevelEnvironementValue: {x: 16, y: 7}
+      LevelEnvironementValue: {x: 6, y: 9}
     - LevelEnvironmentKey: Grass1
-      LevelEnvironementValue: {x: 13, y: 2}
-    - LevelEnvironmentKey: Grass1
-      LevelEnvironementValue: {x: 13, y: 5}
-    - LevelEnvironmentKey: Grass1
-      LevelEnvironementValue: {x: 17, y: 4}
-    - LevelEnvironmentKey: Grass2
-      LevelEnvironementValue: {x: 8, y: 10}
-    - LevelEnvironmentKey: Grass2
-      LevelEnvironementValue: {x: 2, y: 7}
-    - LevelEnvironmentKey: Grass2
-      LevelEnvironementValue: {x: 9, y: 2}
-    - LevelEnvironmentKey: Grass2
-      LevelEnvironementValue: {x: 11, y: 6}
-    - LevelEnvironmentKey: Grass2
-      LevelEnvironementValue: {x: 8, y: 7}
-    - LevelEnvironmentKey: Grass2
       LevelEnvironementValue: {x: 16, y: 9}
-    - LevelEnvironmentKey: Grass3
-      LevelEnvironementValue: {x: 1, y: 2}
-    - LevelEnvironmentKey: Grass3
-      LevelEnvironementValue: {x: 17, y: 2}
-    - LevelEnvironmentKey: Grass3
-      LevelEnvironementValue: {x: 11, y: 10}
-    - LevelEnvironmentKey: Grass3
-      LevelEnvironementValue: {x: 13, y: 7}
-    - LevelEnvironmentKey: Grass3
-      LevelEnvironementValue: {x: 11, y: 3}
-    - LevelEnvironmentKey: Rock1
+    - LevelEnvironmentKey: Grass1
+      LevelEnvironementValue: {x: 3, y: 2}
+    - LevelEnvironmentKey: Grass1
+      LevelEnvironementValue: {x: 7, y: 2}
+    - LevelEnvironmentKey: Grass1
+      LevelEnvironementValue: {x: 14, y: 6}
+    - LevelEnvironmentKey: Grass2
+      LevelEnvironementValue: {x: 17, y: 3}
+    - LevelEnvironmentKey: Grass2
       LevelEnvironementValue: {x: 17, y: 10}
+    - LevelEnvironmentKey: Grass2
+      LevelEnvironementValue: {x: 10, y: 10}
+    - LevelEnvironmentKey: Grass2
+      LevelEnvironementValue: {x: 14, y: 10}
+    - LevelEnvironmentKey: Grass2
+      LevelEnvironementValue: {x: 5, y: 6}
+    - LevelEnvironmentKey: Grass2
+      LevelEnvironementValue: {x: 2, y: 6}
+    - LevelEnvironmentKey: Grass2
+      LevelEnvironementValue: {x: 3, y: 10}
+    - LevelEnvironmentKey: Grass2
+      LevelEnvironementValue: {x: 10, y: 6}
+    - LevelEnvironmentKey: Grass2
+      LevelEnvironementValue: {x: 13, y: 3}
+    - LevelEnvironmentKey: Grass3
+      LevelEnvironementValue: {x: 5, y: 5}
+    - LevelEnvironmentKey: Grass3
+      LevelEnvironementValue: {x: 6, y: 10}
+    - LevelEnvironmentKey: Grass3
+      LevelEnvironementValue: {x: 3, y: 4}
+    - LevelEnvironmentKey: Grass3
+      LevelEnvironementValue: {x: 13, y: 10}
+    - LevelEnvironmentKey: Grass3
+      LevelEnvironementValue: {x: 12, y: 5}
+    - LevelEnvironmentKey: Grass3
+      LevelEnvironementValue: {x: 9, y: 3}
+    - LevelEnvironmentKey: Grass3
+      LevelEnvironementValue: {x: 9, y: 5}
+    - LevelEnvironmentKey: Grass3
+      LevelEnvironementValue: {x: 12, y: 7}
+    - LevelEnvironmentKey: Rock1
+      LevelEnvironementValue: {x: 16, y: 10}
+    - LevelEnvironmentKey: Rock1
+      LevelEnvironementValue: {x: 1, y: 5}
+    - LevelEnvironmentKey: Rock2
+      LevelEnvironementValue: {x: 14, y: 2}
+    - LevelEnvironmentKey: Rock2
+      LevelEnvironementValue: {x: 5, y: 2}
     - LevelEnvironmentKey: Log
+      LevelEnvironementValue: {x: 7, y: 10}
+    - LevelEnvironmentKey: Log
+      LevelEnvironementValue: {x: 8, y: 10}
+    - LevelEnvironmentKey: House1
+      LevelEnvironementValue: {x: 11, y: 3}
+    - LevelEnvironmentKey: House2
+      LevelEnvironementValue: {x: 4, y: 10}
+    - LevelEnvironmentKey: Tree1
       LevelEnvironementValue: {x: 1, y: 10}
     - LevelEnvironmentKey: Tree1
-      LevelEnvironementValue: {x: 13, y: 3}
+      LevelEnvironementValue: {x: 9, y: 10}
     - LevelEnvironmentKey: Tree1
-      LevelEnvironementValue: {x: 4, y: 2}
+      LevelEnvironementValue: {x: 14, y: 4}
     - LevelEnvironmentKey: Tree1
-      LevelEnvironementValue: {x: 7, y: 10}
+      LevelEnvironementValue: {x: 11, y: 6}
     - LevelEnvironmentKey: Tree2
-      LevelEnvironementValue: {x: 17, y: 5}
+      LevelEnvironementValue: {x: 17, y: 4}
     - LevelEnvironmentKey: Tree2
-      LevelEnvironementValue: {x: 16, y: 10}
+      LevelEnvironementValue: {x: 17, y: 8}
+    - LevelEnvironmentKey: Tree2
+      LevelEnvironementValue: {x: 3, y: 7}
     - LevelEnvironmentKey: Tree3
-      LevelEnvironementValue: {x: 4, y: 7}
-    enemyStartInfo: {x: 1, y: 4}
-    enemyEndInfo: {x: 15, y: 2}
+      LevelEnvironementValue: {x: 8, y: 2}
+    - LevelEnvironmentKey: Tree3
+      LevelEnvironementValue: {x: 13, y: 2}
+    - LevelEnvironmentKey: Tree3
+      LevelEnvironementValue: {x: 5, y: 7}
+    enemyStartInfo: {x: 1, y: 3}
+    enemyEndInfo: {x: 16, y: 2}
     centerGridInfo: {x: 0, y: 0}
     levelWaveData:
     - timeBetweenEnemySpawn: 3
@@ -175,12 +207,1017 @@ MonoBehaviour:
       - enemyType: 0
         enemyCount: 3
     - timeBetweenEnemySpawn: 3
+      timeDecrease: 0
+      minTimeBetweenEnemySpawn: 1
+      enemyDatas:
+      - enemyType: 1
+        enemyCount: 3
+    - timeBetweenEnemySpawn: 3
+      timeDecrease: 0
+      minTimeBetweenEnemySpawn: 1
+      enemyDatas:
+      - enemyType: 2
+        enemyCount: 3
+  - levelID: 1
+    levelBorderInfo:
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    - {x: 2, y: 1}
+    - {x: 3, y: 1}
+    - {x: 4, y: 1}
+    - {x: 5, y: 1}
+    - {x: 6, y: 1}
+    - {x: 7, y: 1}
+    - {x: 8, y: 1}
+    - {x: 9, y: 1}
+    - {x: 10, y: 1}
+    - {x: 11, y: 1}
+    - {x: 12, y: 1}
+    - {x: 14, y: 1}
+    - {x: 13, y: 1}
+    - {x: 15, y: 1}
+    - {x: 16, y: 1}
+    - {x: 17, y: 1}
+    - {x: 18, y: 1}
+    - {x: 18, y: 2}
+    - {x: 18, y: 3}
+    - {x: 18, y: 4}
+    - {x: 18, y: 5}
+    - {x: 18, y: 6}
+    - {x: 18, y: 7}
+    - {x: 18, y: 8}
+    - {x: 18, y: 9}
+    - {x: 18, y: 10}
+    - {x: 18, y: 11}
+    - {x: 17, y: 11}
+    - {x: 16, y: 11}
+    - {x: 15, y: 11}
+    - {x: 14, y: 11}
+    - {x: 13, y: 11}
+    - {x: 11, y: 11}
+    - {x: 12, y: 11}
+    - {x: 10, y: 11}
+    - {x: 9, y: 11}
+    - {x: 8, y: 11}
+    - {x: 7, y: 11}
+    - {x: 6, y: 11}
+    - {x: 5, y: 11}
+    - {x: 4, y: 11}
+    - {x: 3, y: 11}
+    - {x: 2, y: 11}
+    - {x: 1, y: 11}
+    - {x: 0, y: 11}
+    - {x: 0, y: 10}
+    - {x: 0, y: 9}
+    - {x: 0, y: 8}
+    - {x: 0, y: 7}
+    - {x: 0, y: 6}
+    - {x: 0, y: 5}
+    - {x: 0, y: 4}
+    - {x: 0, y: 3}
+    - {x: 0, y: 2}
+    levelBorderCornerInfo:
+    - {x: 0, y: 1}
+    - {x: 18, y: 1}
+    - {x: 18, y: 11}
+    - {x: 0, y: 11}
+    levelPathInfo:
+    - {x: 2, y: 9}
+    - {x: 3, y: 9}
+    - {x: 4, y: 9}
+    - {x: 4, y: 8}
+    - {x: 4, y: 7}
+    - {x: 5, y: 7}
+    - {x: 6, y: 7}
+    - {x: 7, y: 7}
+    - {x: 8, y: 7}
+    - {x: 9, y: 7}
+    - {x: 10, y: 7}
+    - {x: 11, y: 7}
+    - {x: 11, y: 6}
+    - {x: 11, y: 5}
+    - {x: 12, y: 5}
+    - {x: 13, y: 5}
+    - {x: 14, y: 5}
+    - {x: 14, y: 4}
+    - {x: 14, y: 3}
+    levelBuildableInfo:
+    - {x: 5, y: 8}
+    - {x: 11, y: 8}
+    - {x: 15, y: 4}
+    levelWaypointInfo:
+    - {x: 2, y: 9}
+    - {x: 4, y: 9}
+    - {x: 4, y: 7}
+    - {x: 11, y: 7}
+    - {x: 11, y: 5}
+    - {x: 14, y: 5}
+    - {x: 14, y: 2}
+    levelEnvironmentData:
+    - LevelEnvironmentKey: Grass1
+      LevelEnvironementValue: {x: 1, y: 10}
+    - LevelEnvironmentKey: Grass1
+      LevelEnvironementValue: {x: 16, y: 10}
+    - LevelEnvironmentKey: Grass1
+      LevelEnvironementValue: {x: 14, y: 8}
+    - LevelEnvironmentKey: Grass1
+      LevelEnvironementValue: {x: 16, y: 7}
+    - LevelEnvironmentKey: Grass1
+      LevelEnvironementValue: {x: 1, y: 7}
+    - LevelEnvironmentKey: Grass1
+      LevelEnvironementValue: {x: 3, y: 7}
+    - LevelEnvironmentKey: Grass1
+      LevelEnvironementValue: {x: 2, y: 4}
+    - LevelEnvironmentKey: Grass1
+      LevelEnvironementValue: {x: 6, y: 4}
+    - LevelEnvironmentKey: Grass1
+      LevelEnvironementValue: {x: 9, y: 3}
+    - LevelEnvironmentKey: Grass1
+      LevelEnvironementValue: {x: 7, y: 5}
+    - LevelEnvironmentKey: Grass1
+      LevelEnvironementValue: {x: 12, y: 3}
+    - LevelEnvironmentKey: Grass1
+      LevelEnvironementValue: {x: 16, y: 2}
+    - LevelEnvironmentKey: Grass1
+      LevelEnvironementValue: {x: 3, y: 2}
+    - LevelEnvironmentKey: Grass2
+      LevelEnvironementValue: {x: 13, y: 9}
+    - LevelEnvironmentKey: Grass2
+      LevelEnvironementValue: {x: 9, y: 9}
+    - LevelEnvironmentKey: Grass2
+      LevelEnvironementValue: {x: 6, y: 9}
+    - LevelEnvironmentKey: Grass2
+      LevelEnvironementValue: {x: 7, y: 10}
+    - LevelEnvironmentKey: Grass2
+      LevelEnvironementValue: {x: 11, y: 10}
+    - LevelEnvironmentKey: Grass2
+      LevelEnvironementValue: {x: 2, y: 6}
+    - LevelEnvironmentKey: Grass2
+      LevelEnvironementValue: {x: 2, y: 3}
+    - LevelEnvironmentKey: Grass2
+      LevelEnvironementValue: {x: 4, y: 5}
+    - LevelEnvironmentKey: Grass2
+      LevelEnvironementValue: {x: 6, y: 2}
+    - LevelEnvironmentKey: Grass2
+      LevelEnvironementValue: {x: 8, y: 4}
+    - LevelEnvironmentKey: Grass2
+      LevelEnvironementValue: {x: 11, y: 2}
+    - LevelEnvironmentKey: Grass3
+      LevelEnvironementValue: {x: 16, y: 5}
+    - LevelEnvironmentKey: Grass3
+      LevelEnvironementValue: {x: 12, y: 6}
+    - LevelEnvironmentKey: Grass3
+      LevelEnvironementValue: {x: 7, y: 9}
+    - LevelEnvironmentKey: Grass3
+      LevelEnvironementValue: {x: 4, y: 3}
+    - LevelEnvironmentKey: House1
+      LevelEnvironementValue: {x: 16, y: 9}
+    - LevelEnvironmentKey: House2
+      LevelEnvironementValue: {x: 7, y: 3}
+    - LevelEnvironmentKey: Log
+      LevelEnvironementValue: {x: 1, y: 2}
+    - LevelEnvironmentKey: Log
+      LevelEnvironementValue: {x: 2, y: 2}
+    - LevelEnvironmentKey: Log
+      LevelEnvironementValue: {x: 1, y: 3}
+    - LevelEnvironmentKey: Log
+      LevelEnvironementValue: {x: 1, y: 4}
+    - LevelEnvironmentKey: Tree1
+      LevelEnvironementValue: {x: 16, y: 3}
+    - LevelEnvironmentKey: Tree1
+      LevelEnvironementValue: {x: 6, y: 5}
+    - LevelEnvironmentKey: Tree1
+      LevelEnvironementValue: {x: 3, y: 5}
+    - LevelEnvironmentKey: Tree2
+      LevelEnvironementValue: {x: 14, y: 9}
+    - LevelEnvironmentKey: Tree3
+      LevelEnvironementValue: {x: 8, y: 9}
+    - LevelEnvironmentKey: Rock1
+      LevelEnvironementValue: {x: 9, y: 2}
+    - LevelEnvironmentKey: Rock1
+      LevelEnvironementValue: {x: 10, y: 3}
+    - LevelEnvironmentKey: Rock1
+      LevelEnvironementValue: {x: 9, y: 5}
+    - LevelEnvironmentKey: Rock1
+      LevelEnvironementValue: {x: 17, y: 2}
+    - LevelEnvironmentKey: Rock1
+      LevelEnvironementValue: {x: 17, y: 5}
+    - LevelEnvironmentKey: Rock2
+      LevelEnvironementValue: {x: 14, y: 7}
+    - LevelEnvironmentKey: Rock2
+      LevelEnvironementValue: {x: 12, y: 8}
+    - LevelEnvironmentKey: Rock2
+      LevelEnvironementValue: {x: 15, y: 6}
+    - LevelEnvironmentKey: Rock2
+      LevelEnvironementValue: {x: 4, y: 4}
+    - LevelEnvironmentKey: Rock2
+      LevelEnvironementValue: {x: 1, y: 6}
+    enemyStartInfo: {x: 1, y: 9}
+    enemyEndInfo: {x: 14, y: 2}
+    centerGridInfo: {x: 0, y: 0}
+    levelWaveData:
+    - timeBetweenEnemySpawn: 3
+      timeDecrease: 0.01
+      minTimeBetweenEnemySpawn: 2
+      enemyDatas:
+      - enemyType: 0
+        enemyCount: 5
+      - enemyType: 1
+        enemyCount: 2
+      - enemyType: 2
+        enemyCount: 1
+    - timeBetweenEnemySpawn: 3
+      timeDecrease: 0.01
+      minTimeBetweenEnemySpawn: 2
+      enemyDatas:
+      - enemyType: 0
+        enemyCount: 8
+      - enemyType: 1
+        enemyCount: 4
+      - enemyType: 2
+        enemyCount: 2
+    - timeBetweenEnemySpawn: 3
       timeDecrease: 0.05
+      minTimeBetweenEnemySpawn: 2
+      enemyDatas:
+      - enemyType: 0
+        enemyCount: 12
+      - enemyType: 1
+        enemyCount: 8
+      - enemyType: 2
+        enemyCount: 4
+  - levelID: 2
+    levelBorderInfo:
+    - {x: 0, y: 1}
+    - {x: 0, y: 2}
+    - {x: 0, y: 3}
+    - {x: 0, y: 4}
+    - {x: 0, y: 5}
+    - {x: 0, y: 6}
+    - {x: 0, y: 7}
+    - {x: 0, y: 8}
+    - {x: 0, y: 9}
+    - {x: 0, y: 10}
+    - {x: 0, y: 11}
+    - {x: 1, y: 11}
+    - {x: 2, y: 11}
+    - {x: 3, y: 11}
+    - {x: 4, y: 11}
+    - {x: 5, y: 11}
+    - {x: 6, y: 11}
+    - {x: 7, y: 11}
+    - {x: 8, y: 11}
+    - {x: 9, y: 11}
+    - {x: 10, y: 11}
+    - {x: 11, y: 11}
+    - {x: 12, y: 11}
+    - {x: 13, y: 11}
+    - {x: 14, y: 11}
+    - {x: 15, y: 11}
+    - {x: 16, y: 11}
+    - {x: 17, y: 11}
+    - {x: 18, y: 11}
+    - {x: 18, y: 10}
+    - {x: 18, y: 9}
+    - {x: 18, y: 8}
+    - {x: 18, y: 7}
+    - {x: 18, y: 6}
+    - {x: 18, y: 5}
+    - {x: 18, y: 4}
+    - {x: 18, y: 3}
+    - {x: 18, y: 2}
+    - {x: 18, y: 1}
+    - {x: 17, y: 1}
+    - {x: 16, y: 1}
+    - {x: 15, y: 1}
+    - {x: 14, y: 1}
+    - {x: 13, y: 1}
+    - {x: 12, y: 1}
+    - {x: 11, y: 1}
+    - {x: 10, y: 1}
+    - {x: 9, y: 1}
+    - {x: 8, y: 1}
+    - {x: 7, y: 1}
+    - {x: 6, y: 1}
+    - {x: 5, y: 1}
+    - {x: 4, y: 1}
+    - {x: 3, y: 1}
+    - {x: 2, y: 1}
+    - {x: 1, y: 1}
+    levelBorderCornerInfo:
+    - {x: 0, y: 1}
+    - {x: 18, y: 1}
+    - {x: 18, y: 11}
+    - {x: 0, y: 11}
+    levelPathInfo:
+    - {x: 2, y: 3}
+    - {x: 2, y: 4}
+    - {x: 2, y: 5}
+    - {x: 2, y: 6}
+    - {x: 2, y: 7}
+    - {x: 2, y: 8}
+    - {x: 3, y: 8}
+    - {x: 4, y: 8}
+    - {x: 5, y: 8}
+    - {x: 6, y: 8}
+    - {x: 7, y: 8}
+    - {x: 7, y: 7}
+    - {x: 7, y: 6}
+    - {x: 7, y: 5}
+    - {x: 7, y: 4}
+    - {x: 7, y: 3}
+    - {x: 8, y: 3}
+    - {x: 9, y: 3}
+    - {x: 10, y: 3}
+    - {x: 11, y: 3}
+    - {x: 12, y: 3}
+    - {x: 12, y: 4}
+    - {x: 12, y: 5}
+    - {x: 12, y: 6}
+    - {x: 12, y: 7}
+    - {x: 13, y: 7}
+    - {x: 14, y: 7}
+    - {x: 15, y: 7}
+    - {x: 16, y: 7}
+    - {x: 17, y: 7}
+    - {x: 17, y: 8}
+    - {x: 17, y: 9}
+    levelBuildableInfo:
+    - {x: 3, y: 5}
+    - {x: 5, y: 9}
+    - {x: 8, y: 4}
+    - {x: 15, y: 8}
+    levelWaypointInfo:
+    - {x: 2, y: 3}
+    - {x: 2, y: 8}
+    - {x: 7, y: 8}
+    - {x: 7, y: 3}
+    - {x: 12, y: 3}
+    - {x: 12, y: 7}
+    - {x: 17, y: 7}
+    - {x: 17, y: 9}
+    levelEnvironmentData:
+    - LevelEnvironmentKey: Grass1
+      LevelEnvironementValue: {x: 15, y: 10}
+    - LevelEnvironmentKey: Grass1
+      LevelEnvironementValue: {x: 13, y: 10}
+    - LevelEnvironmentKey: Grass1
+      LevelEnvironementValue: {x: 8, y: 10}
+    - LevelEnvironmentKey: Grass1
+      LevelEnvironementValue: {x: 4, y: 10}
+    - LevelEnvironmentKey: Grass1
+      LevelEnvironementValue: {x: 1, y: 10}
+    - LevelEnvironmentKey: Grass1
+      LevelEnvironementValue: {x: 10, y: 10}
+    - LevelEnvironmentKey: Grass2
+      LevelEnvironementValue: {x: 9, y: 4}
+    - LevelEnvironmentKey: Grass2
+      LevelEnvironementValue: {x: 11, y: 7}
+    - LevelEnvironmentKey: Grass2
+      LevelEnvironementValue: {x: 8, y: 8}
+    - LevelEnvironmentKey: Grass2
+      LevelEnvironementValue: {x: 1, y: 7}
+    - LevelEnvironmentKey: Grass2
+      LevelEnvironementValue: {x: 1, y: 5}
+    - LevelEnvironmentKey: Grass2
+      LevelEnvironementValue: {x: 12, y: 9}
+    - LevelEnvironmentKey: Grass2
+      LevelEnvironementValue: {x: 14, y: 8}
+    - LevelEnvironmentKey: Grass3
+      LevelEnvironementValue: {x: 3, y: 7}
+    - LevelEnvironmentKey: Grass3
+      LevelEnvironementValue: {x: 6, y: 6}
+    - LevelEnvironmentKey: Grass3
+      LevelEnvironementValue: {x: 4, y: 3}
+    - LevelEnvironmentKey: Grass3
+      LevelEnvironementValue: {x: 4, y: 6}
+    - LevelEnvironmentKey: Rock1
+      LevelEnvironementValue: {x: 17, y: 2}
+    - LevelEnvironmentKey: Rock1
+      LevelEnvironementValue: {x: 16, y: 2}
+    - LevelEnvironmentKey: Rock1
+      LevelEnvironementValue: {x: 16, y: 3}
+    - LevelEnvironmentKey: Rock1
+      LevelEnvironementValue: {x: 17, y: 3}
+    - LevelEnvironmentKey: Rock2
+      LevelEnvironementValue: {x: 1, y: 2}
+    - LevelEnvironmentKey: Rock2
+      LevelEnvironementValue: {x: 1, y: 3}
+    - LevelEnvironmentKey: Rock2
+      LevelEnvironementValue: {x: 1, y: 4}
+    - LevelEnvironmentKey: Log
+      LevelEnvironementValue: {x: 2, y: 10}
+    - LevelEnvironmentKey: Log
+      LevelEnvironementValue: {x: 3, y: 10}
+    - LevelEnvironmentKey: Log
+      LevelEnvironementValue: {x: 6, y: 10}
+    - LevelEnvironmentKey: Log
+      LevelEnvironementValue: {x: 7, y: 10}
+    - LevelEnvironmentKey: Log
+      LevelEnvironementValue: {x: 11, y: 10}
+    - LevelEnvironmentKey: Log
+      LevelEnvironementValue: {x: 12, y: 10}
+    - LevelEnvironmentKey: House1
+      LevelEnvironementValue: {x: 16, y: 5}
+    - LevelEnvironmentKey: House1
+      LevelEnvironementValue: {x: 14, y: 5}
+    - LevelEnvironmentKey: Tree1
+      LevelEnvironementValue: {x: 4, y: 2}
+    - LevelEnvironmentKey: Tree1
+      LevelEnvironementValue: {x: 15, y: 2}
+    - LevelEnvironmentKey: Tree2
+      LevelEnvironementValue: {x: 5, y: 5}
+    - LevelEnvironmentKey: Tree2
+      LevelEnvironementValue: {x: 10, y: 6}
+    - LevelEnvironmentKey: Tree2
+      LevelEnvironementValue: {x: 14, y: 9}
+    - LevelEnvironmentKey: Tree3
+      LevelEnvironementValue: {x: 1, y: 9}
+    - LevelEnvironmentKey: Tree3
+      LevelEnvironementValue: {x: 9, y: 9}
+    enemyStartInfo: {x: 2, y: 2}
+    enemyEndInfo: {x: 17, y: 10}
+    centerGridInfo: {x: 0, y: 0}
+    levelWaveData:
+    - timeBetweenEnemySpawn: 3
+      timeDecrease: 0
+      minTimeBetweenEnemySpawn: 2
+      enemyDatas:
+      - enemyType: 0
+        enemyCount: 10
+      - enemyType: 1
+        enemyCount: 5
+      - enemyType: 2
+        enemyCount: 3
+    - timeBetweenEnemySpawn: 3
+      timeDecrease: 0.1
+      minTimeBetweenEnemySpawn: 2
+      enemyDatas:
+      - enemyType: 0
+        enemyCount: 12
+      - enemyType: 1
+        enemyCount: 8
+      - enemyType: 2
+        enemyCount: 4
+    - timeBetweenEnemySpawn: 3
+      timeDecrease: 0.1
+      minTimeBetweenEnemySpawn: 0.5
+      enemyDatas:
+      - enemyType: 0
+        enemyCount: 15
+      - enemyType: 1
+        enemyCount: 10
+      - enemyType: 2
+        enemyCount: 6
+    - timeBetweenEnemySpawn: 3
+      timeDecrease: 0.1
+      minTimeBetweenEnemySpawn: 0.5
+      enemyDatas:
+      - enemyType: 0
+        enemyCount: 20
+      - enemyType: 1
+        enemyCount: 12
+      - enemyType: 2
+        enemyCount: 8
+  - levelID: 3
+    levelBorderInfo:
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    - {x: 2, y: 1}
+    - {x: 3, y: 1}
+    - {x: 4, y: 1}
+    - {x: 5, y: 1}
+    - {x: 6, y: 1}
+    - {x: 7, y: 1}
+    - {x: 8, y: 1}
+    - {x: 9, y: 1}
+    - {x: 10, y: 1}
+    - {x: 11, y: 1}
+    - {x: 12, y: 1}
+    - {x: 13, y: 1}
+    - {x: 14, y: 1}
+    - {x: 15, y: 1}
+    - {x: 16, y: 1}
+    - {x: 17, y: 1}
+    - {x: 18, y: 1}
+    - {x: 18, y: 2}
+    - {x: 18, y: 3}
+    - {x: 18, y: 4}
+    - {x: 18, y: 5}
+    - {x: 18, y: 6}
+    - {x: 18, y: 7}
+    - {x: 18, y: 8}
+    - {x: 18, y: 9}
+    - {x: 18, y: 10}
+    - {x: 18, y: 11}
+    - {x: 17, y: 11}
+    - {x: 16, y: 11}
+    - {x: 15, y: 11}
+    - {x: 14, y: 11}
+    - {x: 13, y: 11}
+    - {x: 12, y: 11}
+    - {x: 11, y: 11}
+    - {x: 10, y: 11}
+    - {x: 9, y: 11}
+    - {x: 8, y: 11}
+    - {x: 7, y: 11}
+    - {x: 6, y: 11}
+    - {x: 5, y: 11}
+    - {x: 4, y: 11}
+    - {x: 3, y: 11}
+    - {x: 2, y: 11}
+    - {x: 1, y: 11}
+    - {x: 0, y: 11}
+    - {x: 0, y: 10}
+    - {x: 0, y: 9}
+    - {x: 0, y: 8}
+    - {x: 0, y: 7}
+    - {x: 0, y: 6}
+    - {x: 0, y: 5}
+    - {x: 0, y: 4}
+    - {x: 0, y: 3}
+    - {x: 0, y: 2}
+    levelBorderCornerInfo:
+    - {x: 0, y: 1}
+    - {x: 18, y: 1}
+    - {x: 18, y: 11}
+    - {x: 0, y: 11}
+    levelPathInfo:
+    - {x: 2, y: 9}
+    - {x: 2, y: 8}
+    - {x: 2, y: 7}
+    - {x: 2, y: 6}
+    - {x: 2, y: 5}
+    - {x: 2, y: 4}
+    - {x: 2, y: 3}
+    - {x: 3, y: 3}
+    - {x: 4, y: 3}
+    - {x: 5, y: 3}
+    - {x: 6, y: 3}
+    - {x: 6, y: 4}
+    - {x: 6, y: 5}
+    - {x: 6, y: 6}
+    - {x: 6, y: 7}
+    - {x: 6, y: 8}
+    - {x: 6, y: 9}
+    - {x: 6, y: 10}
+    - {x: 7, y: 10}
+    - {x: 8, y: 10}
+    - {x: 9, y: 10}
+    - {x: 10, y: 10}
+    - {x: 11, y: 10}
+    - {x: 11, y: 9}
+    - {x: 11, y: 8}
+    - {x: 11, y: 7}
+    - {x: 11, y: 6}
+    - {x: 11, y: 5}
+    - {x: 11, y: 4}
+    - {x: 11, y: 3}
+    - {x: 12, y: 3}
+    - {x: 13, y: 3}
+    - {x: 14, y: 3}
+    - {x: 14, y: 4}
+    - {x: 14, y: 5}
+    - {x: 14, y: 6}
+    - {x: 14, y: 7}
+    - {x: 14, y: 8}
+    - {x: 15, y: 8}
+    - {x: 16, y: 8}
+    levelBuildableInfo:
+    - {x: 3, y: 5}
+    - {x: 7, y: 8}
+    - {x: 12, y: 4}
+    - {x: 12, y: 9}
+    levelWaypointInfo:
+    - {x: 2, y: 9}
+    - {x: 2, y: 3}
+    - {x: 6, y: 3}
+    - {x: 6, y: 10}
+    - {x: 11, y: 10}
+    - {x: 11, y: 3}
+    - {x: 14, y: 3}
+    - {x: 14, y: 8}
+    - {x: 17, y: 8}
+    levelEnvironmentData:
+    - LevelEnvironmentKey: Grass1
+      LevelEnvironementValue: {x: 1, y: 10}
+    - LevelEnvironmentKey: Grass1
+      LevelEnvironementValue: {x: 1, y: 7}
+    - LevelEnvironmentKey: Grass1
+      LevelEnvironementValue: {x: 1, y: 3}
+    - LevelEnvironmentKey: Grass1
+      LevelEnvironementValue: {x: 15, y: 10}
+    - LevelEnvironmentKey: Grass1
+      LevelEnvironementValue: {x: 17, y: 10}
+    - LevelEnvironmentKey: Grass1
+      LevelEnvironementValue: {x: 17, y: 3}
+    - LevelEnvironmentKey: Grass1
+      LevelEnvironementValue: {x: 9, y: 8}
+    - LevelEnvironmentKey: Grass2
+      LevelEnvironementValue: {x: 1, y: 9}
+    - LevelEnvironmentKey: Grass2
+      LevelEnvironementValue: {x: 1, y: 4}
+    - LevelEnvironmentKey: Grass2
+      LevelEnvironementValue: {x: 1, y: 2}
+    - LevelEnvironmentKey: Grass2
+      LevelEnvironementValue: {x: 7, y: 7}
+    - LevelEnvironmentKey: Grass2
+      LevelEnvironementValue: {x: 8, y: 4}
+    - LevelEnvironmentKey: Grass2
+      LevelEnvironementValue: {x: 12, y: 7}
+    - LevelEnvironmentKey: Grass2
+      LevelEnvironementValue: {x: 16, y: 6}
+    - LevelEnvironmentKey: Grass3
+      LevelEnvironementValue: {x: 4, y: 9}
+    - LevelEnvironmentKey: Grass3
+      LevelEnvironementValue: {x: 4, y: 6}
+    - LevelEnvironmentKey: Grass3
+      LevelEnvironementValue: {x: 13, y: 10}
+    - LevelEnvironmentKey: House2
+      LevelEnvironementValue: {x: 16, y: 4}
+    - LevelEnvironmentKey: House1
+      LevelEnvironementValue: {x: 9, y: 6}
+    - LevelEnvironmentKey: Tree1
+      LevelEnvironementValue: {x: 14, y: 10}
+    - LevelEnvironmentKey: Tree1
+      LevelEnvironementValue: {x: 4, y: 8}
+    - LevelEnvironmentKey: Tree2
+      LevelEnvironementValue: {x: 8, y: 2}
+    - LevelEnvironmentKey: Tree2
+      LevelEnvironementValue: {x: 16, y: 2}
+    - LevelEnvironmentKey: Tree3
+      LevelEnvironementValue: {x: 12, y: 6}
+    - LevelEnvironmentKey: Rock1
+      LevelEnvironementValue: {x: 3, y: 10}
+    - LevelEnvironmentKey: Rock1
+      LevelEnvironementValue: {x: 4, y: 10}
+    - LevelEnvironmentKey: Rock1
+      LevelEnvironementValue: {x: 16, y: 10}
+    - LevelEnvironmentKey: Rock1
+      LevelEnvironementValue: {x: 16, y: 9}
+    - LevelEnvironmentKey: Rock2
+      LevelEnvironementValue: {x: 2, y: 2}
+    - LevelEnvironmentKey: Rock2
+      LevelEnvironementValue: {x: 3, y: 2}
+    - LevelEnvironmentKey: Rock2
+      LevelEnvironementValue: {x: 5, y: 2}
+    - LevelEnvironmentKey: Rock2
+      LevelEnvironementValue: {x: 6, y: 2}
+    - LevelEnvironmentKey: Log
+      LevelEnvironementValue: {x: 12, y: 2}
+    - LevelEnvironmentKey: Log
+      LevelEnvironementValue: {x: 13, y: 2}
+    - LevelEnvironmentKey: Log
+      LevelEnvironementValue: {x: 14, y: 2}
+    - LevelEnvironmentKey: Log
+      LevelEnvironementValue: {x: 11, y: 2}
+    enemyStartInfo: {x: 2, y: 10}
+    enemyEndInfo: {x: 17, y: 8}
+    centerGridInfo: {x: 0, y: 0}
+    levelWaveData:
+    - timeBetweenEnemySpawn: 3
+      timeDecrease: 0.05
+      minTimeBetweenEnemySpawn: 1.5
+      enemyDatas:
+      - enemyType: 0
+        enemyCount: 10
+      - enemyType: 1
+        enemyCount: 6
+      - enemyType: 2
+        enemyCount: 4
+    - timeBetweenEnemySpawn: 2
+      timeDecrease: 0.1
+      minTimeBetweenEnemySpawn: 1
+      enemyDatas:
+      - enemyType: 0
+        enemyCount: 15
+      - enemyType: 1
+        enemyCount: 10
+      - enemyType: 2
+        enemyCount: 5
+    - timeBetweenEnemySpawn: 2
+      timeDecrease: 0.25
+      minTimeBetweenEnemySpawn: 0.5
+      enemyDatas:
+      - enemyType: 0
+        enemyCount: 20
+      - enemyType: 1
+        enemyCount: 12
+      - enemyType: 2
+        enemyCount: 10
+    - timeBetweenEnemySpawn: 2
+      timeDecrease: 0.25
+      minTimeBetweenEnemySpawn: 0.5
+      enemyDatas:
+      - enemyType: 0
+        enemyCount: 30
+      - enemyType: 1
+        enemyCount: 15
+      - enemyType: 2
+        enemyCount: 15
+  - levelID: 4
+    levelBorderInfo:
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    - {x: 2, y: 1}
+    - {x: 3, y: 1}
+    - {x: 4, y: 1}
+    - {x: 5, y: 1}
+    - {x: 6, y: 1}
+    - {x: 7, y: 1}
+    - {x: 8, y: 1}
+    - {x: 9, y: 1}
+    - {x: 10, y: 1}
+    - {x: 11, y: 1}
+    - {x: 12, y: 1}
+    - {x: 13, y: 1}
+    - {x: 14, y: 1}
+    - {x: 15, y: 1}
+    - {x: 16, y: 1}
+    - {x: 17, y: 1}
+    - {x: 18, y: 1}
+    - {x: 18, y: 2}
+    - {x: 18, y: 3}
+    - {x: 18, y: 4}
+    - {x: 18, y: 5}
+    - {x: 18, y: 6}
+    - {x: 18, y: 7}
+    - {x: 18, y: 8}
+    - {x: 18, y: 9}
+    - {x: 18, y: 10}
+    - {x: 18, y: 11}
+    - {x: 17, y: 11}
+    - {x: 16, y: 11}
+    - {x: 15, y: 11}
+    - {x: 14, y: 11}
+    - {x: 13, y: 11}
+    - {x: 12, y: 11}
+    - {x: 11, y: 11}
+    - {x: 10, y: 11}
+    - {x: 9, y: 11}
+    - {x: 8, y: 11}
+    - {x: 7, y: 11}
+    - {x: 6, y: 11}
+    - {x: 5, y: 11}
+    - {x: 4, y: 11}
+    - {x: 3, y: 11}
+    - {x: 2, y: 11}
+    - {x: 1, y: 11}
+    - {x: 0, y: 11}
+    - {x: 0, y: 10}
+    - {x: 0, y: 9}
+    - {x: 0, y: 8}
+    - {x: 0, y: 7}
+    - {x: 0, y: 6}
+    - {x: 0, y: 5}
+    - {x: 0, y: 4}
+    - {x: 0, y: 3}
+    - {x: 0, y: 2}
+    levelBorderCornerInfo:
+    - {x: 0, y: 1}
+    - {x: 18, y: 1}
+    - {x: 18, y: 11}
+    - {x: 0, y: 11}
+    levelPathInfo:
+    - {x: 2, y: 3}
+    - {x: 3, y: 3}
+    - {x: 4, y: 3}
+    - {x: 5, y: 3}
+    - {x: 6, y: 3}
+    - {x: 7, y: 3}
+    - {x: 8, y: 3}
+    - {x: 9, y: 3}
+    - {x: 10, y: 3}
+    - {x: 11, y: 3}
+    - {x: 12, y: 3}
+    - {x: 13, y: 3}
+    - {x: 14, y: 3}
+    - {x: 15, y: 3}
+    - {x: 15, y: 4}
+    - {x: 15, y: 5}
+    - {x: 15, y: 6}
+    - {x: 15, y: 7}
+    - {x: 15, y: 8}
+    - {x: 15, y: 9}
+    - {x: 14, y: 9}
+    - {x: 13, y: 9}
+    - {x: 12, y: 9}
+    - {x: 12, y: 8}
+    - {x: 12, y: 7}
+    - {x: 12, y: 6}
+    - {x: 11, y: 6}
+    - {x: 10, y: 6}
+    - {x: 9, y: 6}
+    - {x: 8, y: 6}
+    - {x: 8, y: 7}
+    - {x: 8, y: 8}
+    - {x: 8, y: 9}
+    - {x: 8, y: 10}
+    - {x: 7, y: 10}
+    - {x: 6, y: 10}
+    - {x: 5, y: 10}
+    - {x: 4, y: 10}
+    - {x: 3, y: 10}
+    - {x: 2, y: 10}
+    - {x: 2, y: 9}
+    - {x: 2, y: 8}
+    - {x: 2, y: 7}
+    - {x: 2, y: 6}
+    levelBuildableInfo:
+    - {x: 5, y: 4}
+    - {x: 11, y: 4}
+    - {x: 16, y: 7}
+    - {x: 10, y: 7}
+    - {x: 3, y: 9}
+    levelWaypointInfo:
+    - {x: 2, y: 3}
+    - {x: 15, y: 3}
+    - {x: 15, y: 9}
+    - {x: 12, y: 9}
+    - {x: 12, y: 6}
+    - {x: 8, y: 6}
+    - {x: 8, y: 10}
+    - {x: 2, y: 10}
+    - {x: 2, y: 6}
+    - {x: 1, y: 6}
+    levelEnvironmentData:
+    - LevelEnvironmentKey: House1
+      LevelEnvironementValue: {x: 17, y: 10}
+    - LevelEnvironmentKey: House2
+      LevelEnvironementValue: {x: 17, y: 3}
+    - LevelEnvironmentKey: Tree1
+      LevelEnvironementValue: {x: 17, y: 5}
+    - LevelEnvironmentKey: Tree1
+      LevelEnvironementValue: {x: 6, y: 2}
+    - LevelEnvironmentKey: Tree1
+      LevelEnvironementValue: {x: 13, y: 2}
+    - LevelEnvironmentKey: Tree1
+      LevelEnvironementValue: {x: 10, y: 10}
+    - LevelEnvironmentKey: Tree2
+      LevelEnvironementValue: {x: 2, y: 2}
+    - LevelEnvironmentKey: Tree2
+      LevelEnvironementValue: {x: 13, y: 5}
+    - LevelEnvironmentKey: Tree2
+      LevelEnvironementValue: {x: 3, y: 5}
+    - LevelEnvironmentKey: Tree2
+      LevelEnvironementValue: {x: 6, y: 8}
+    - LevelEnvironmentKey: Tree3
+      LevelEnvironementValue: {x: 14, y: 10}
+    - LevelEnvironmentKey: Tree3
+      LevelEnvironementValue: {x: 17, y: 8}
+    - LevelEnvironmentKey: Tree3
+      LevelEnvironementValue: {x: 14, y: 7}
+    - LevelEnvironmentKey: Tree3
+      LevelEnvironementValue: {x: 4, y: 8}
+    - LevelEnvironmentKey: Log
+      LevelEnvironementValue: {x: 8, y: 2}
+    - LevelEnvironmentKey: Log
+      LevelEnvironementValue: {x: 9, y: 2}
+    - LevelEnvironmentKey: Log
+      LevelEnvironementValue: {x: 10, y: 2}
+    - LevelEnvironmentKey: Log
+      LevelEnvironementValue: {x: 11, y: 2}
+    - LevelEnvironmentKey: Log
+      LevelEnvironementValue: {x: 10, y: 8}
+    - LevelEnvironmentKey: Log
+      LevelEnvironementValue: {x: 11, y: 8}
+    - LevelEnvironmentKey: Rock1
+      LevelEnvironementValue: {x: 15, y: 2}
+    - LevelEnvironmentKey: Rock1
+      LevelEnvironementValue: {x: 16, y: 2}
+    - LevelEnvironmentKey: Rock1
+      LevelEnvironementValue: {x: 14, y: 2}
+    - LevelEnvironmentKey: Rock1
+      LevelEnvironementValue: {x: 4, y: 2}
+    - LevelEnvironmentKey: Rock1
+      LevelEnvironementValue: {x: 5, y: 6}
+    - LevelEnvironmentKey: Rock1
+      LevelEnvironementValue: {x: 8, y: 5}
+    - LevelEnvironmentKey: Rock1
+      LevelEnvironementValue: {x: 1, y: 10}
+    - LevelEnvironmentKey: Rock1
+      LevelEnvironementValue: {x: 12, y: 10}
+    - LevelEnvironmentKey: Rock2
+      LevelEnvironementValue: {x: 15, y: 10}
+    - LevelEnvironmentKey: Rock2
+      LevelEnvironementValue: {x: 10, y: 4}
+    - LevelEnvironmentKey: Grass1
+      LevelEnvironementValue: {x: 16, y: 9}
+    - LevelEnvironmentKey: Grass1
+      LevelEnvironementValue: {x: 6, y: 6}
+    - LevelEnvironmentKey: Grass1
+      LevelEnvironementValue: {x: 7, y: 4}
+    - LevelEnvironmentKey: Grass1
+      LevelEnvironementValue: {x: 9, y: 4}
+    - LevelEnvironmentKey: Grass1
+      LevelEnvironementValue: {x: 4, y: 6}
+    - LevelEnvironmentKey: Grass1
+      LevelEnvironementValue: {x: 3, y: 8}
+    - LevelEnvironmentKey: Grass1
+      LevelEnvironementValue: {x: 5, y: 9}
+    - LevelEnvironmentKey: Grass1
+      LevelEnvironementValue: {x: 12, y: 5}
+    - LevelEnvironmentKey: Grass1
+      LevelEnvironementValue: {x: 16, y: 4}
+    - LevelEnvironmentKey: Grass1
+      LevelEnvironementValue: {x: 6, y: 5}
+    - LevelEnvironmentKey: Grass1
+      LevelEnvironementValue: {x: 3, y: 2}
+    - LevelEnvironmentKey: Grass1
+      LevelEnvironementValue: {x: 1, y: 8}
+    - LevelEnvironmentKey: Grass3
+      LevelEnvironementValue: {x: 10, y: 5}
+    - LevelEnvironmentKey: Grass3
+      LevelEnvironementValue: {x: 7, y: 6}
+    - LevelEnvironmentKey: Grass3
+      LevelEnvironementValue: {x: 5, y: 5}
+    - LevelEnvironmentKey: Grass3
+      LevelEnvironementValue: {x: 7, y: 5}
+    - LevelEnvironmentKey: Grass3
+      LevelEnvironementValue: {x: 4, y: 4}
+    - LevelEnvironmentKey: Grass3
+      LevelEnvironementValue: {x: 3, y: 7}
+    - LevelEnvironmentKey: Grass3
+      LevelEnvironementValue: {x: 5, y: 7}
+    - LevelEnvironmentKey: Grass3
+      LevelEnvironementValue: {x: 7, y: 9}
+    - LevelEnvironmentKey: Grass3
+      LevelEnvironementValue: {x: 9, y: 9}
+    - LevelEnvironmentKey: Grass3
+      LevelEnvironementValue: {x: 11, y: 10}
+    - LevelEnvironmentKey: Grass3
+      LevelEnvironementValue: {x: 13, y: 8}
+    - LevelEnvironmentKey: Grass3
+      LevelEnvironementValue: {x: 13, y: 6}
+    - LevelEnvironmentKey: Grass3
+      LevelEnvironementValue: {x: 14, y: 6}
+    - LevelEnvironmentKey: Grass3
+      LevelEnvironementValue: {x: 14, y: 4}
+    - LevelEnvironmentKey: Grass2
+      LevelEnvironementValue: {x: 16, y: 10}
+    - LevelEnvironmentKey: Grass2
+      LevelEnvironementValue: {x: 17, y: 7}
+    - LevelEnvironmentKey: Grass2
+      LevelEnvironementValue: {x: 16, y: 6}
+    - LevelEnvironmentKey: Grass2
+      LevelEnvironementValue: {x: 12, y: 4}
+    - LevelEnvironmentKey: Grass2
+      LevelEnvironementValue: {x: 5, y: 2}
+    - LevelEnvironmentKey: Grass2
+      LevelEnvironementValue: {x: 6, y: 4}
+    - LevelEnvironmentKey: Grass2
+      LevelEnvironementValue: {x: 7, y: 8}
+    enemyStartInfo: {x: 1, y: 3}
+    enemyEndInfo: {x: 1, y: 6}
+    centerGridInfo: {x: 0, y: 0}
+    levelWaveData:
+    - timeBetweenEnemySpawn: 3
+      timeDecrease: 0.1
       minTimeBetweenEnemySpawn: 1
       enemyDatas:
       - enemyType: 0
         enemyCount: 10
       - enemyType: 1
-        enemyCount: 4
+        enemyCount: 6
       - enemyType: 2
-        enemyCount: 2
+        enemyCount: 4
+    - timeBetweenEnemySpawn: 3
+      timeDecrease: 0.3
+      minTimeBetweenEnemySpawn: 0.5
+      enemyDatas:
+      - enemyType: 0
+        enemyCount: 15
+      - enemyType: 1
+        enemyCount: 10
+      - enemyType: 2
+        enemyCount: 8
+    - timeBetweenEnemySpawn: 3
+      timeDecrease: 0.2
+      minTimeBetweenEnemySpawn: 0.5
+      enemyDatas:
+      - enemyType: 0
+        enemyCount: 25
+      - enemyType: 1
+        enemyCount: 15
+      - enemyType: 2
+        enemyCount: 10
+    - timeBetweenEnemySpawn: 3
+      timeDecrease: 0.1
+      minTimeBetweenEnemySpawn: 0.5
+      enemyDatas:
+      - enemyType: 0
+        enemyCount: 30
+      - enemyType: 1
+        enemyCount: 20
+      - enemyType: 2
+        enemyCount: 15
+    - timeBetweenEnemySpawn: 3
+      timeDecrease: 0.1
+      minTimeBetweenEnemySpawn: 0.25
+      enemyDatas:
+      - enemyType: 0
+        enemyCount: 50
+      - enemyType: 1
+        enemyCount: 25
+      - enemyType: 2
+        enemyCount: 20

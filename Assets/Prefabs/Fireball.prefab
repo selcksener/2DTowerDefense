@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3820156410664440328}
   - component: {fileID: 3016540818664579585}
   - component: {fileID: 4665298927394842405}
+  - component: {fileID: -6700038932567582127}
   m_Layer: 0
   m_Name: Fireball
   m_TagString: Untagged
@@ -98,8 +99,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageAmount: 60
-  projectType: 2
-  poolType: 8
   targetEnemy: {fileID: 0}
   startPosition: {fileID: 0}
   destroyTimer: 2
+  poolType: 8
+  collider: {fileID: 0}
+--- !u!58 &-6700038932567582127
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2931481966751373494}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.03, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.09

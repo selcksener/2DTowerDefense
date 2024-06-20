@@ -46,7 +46,7 @@ public class PoolManager : Singleton<PoolManager>
     public void AddObjectFromPool(PoolObjectType _type, GameObject go)
     {
         objectPools[_type].Add(go);
-        go.SetActive(false);
+        go?.SetActive(false);
     }
     /// <summary>
     /// Havuzdan obje silinip obje aktif ediliyor
@@ -54,10 +54,10 @@ public class PoolManager : Singleton<PoolManager>
     /// </summary>
     /// <param name="_type"></param>
     /// <param name="go"></param>
-    public void RemoveObjectFromPool(PoolObjectType _type, GameObject go)
+    public void RemoveObjectFromPool(PoolObjectType _type, GameObject go,bool isActive)
     {
         objectPools[_type].Remove(go);
-        go.SetActive(true);
+        go?.SetActive(isActive);
     }
 
 
@@ -67,7 +67,7 @@ public class PoolManager : Singleton<PoolManager>
     /// </summary>
     /// <param name="_type">Objenin tipi</param>
     /// <returns></returns>
-    public GameObject GetObjectFromPool(PoolObjectType _type)
+    public GameObject GetObjectFromPool(PoolObjectType _type,bool isActive=true)
     {
         GameObject go = null;
         if (objectPools[_type].Count <= 0)
@@ -75,7 +75,7 @@ public class PoolManager : Singleton<PoolManager>
             InstantiateObject(_type);
         }
         go = objectPools[_type][0];
-        RemoveObjectFromPool(_type, go);
+        RemoveObjectFromPool(_type, go,isActive);
         return go;
     }
 

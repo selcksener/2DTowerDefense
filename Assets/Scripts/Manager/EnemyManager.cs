@@ -51,7 +51,12 @@ public class EnemyManager : MonoBehaviour
         {
             case EnemyCollideType.Escape:
                 escapedEnemyCount++;
-                RemoveEnemyFromList(enemy);
+                if(escapedEnemyCount>=10)
+                {
+                    GameManager.GameCurrentState.Invoke(GameState.Lose,1);
+                }
+                else
+                    RemoveEnemyFromList(enemy);
                 break;
             case EnemyCollideType.Die:
                 totalKilled++;
@@ -79,8 +84,9 @@ public class EnemyManager : MonoBehaviour
                 if(currentWave >= GameManager.Instance.levelLoaderManager.levelInfo.levelDatas[GameManager.Instance.LevelID].levelWaveData.Count)
                 {
                     GameManager.GameCurrentState.Invoke(GameState.Win, -1);
+                    CancelInvoke("SpawnEnemyLoop");
                 }
-                else
+                else if (_state != GameState.Lose)
                     GameManager.GameCurrentState.Invoke(GameState.NextWave, currentWave);
                 break;
             case GameState.NextWave: // Enemy spawn for next wave
@@ -97,6 +103,11 @@ public class EnemyManager : MonoBehaviour
                 currentWave = 0;
                 ClearEnemy();
                 break;
+            case GameState.Lose:
+                currentWave = 0;
+                ClearEnemy();
+                CancelInvoke("SpawnEnemyLoop");
+                break;
         }
     }
 
@@ -106,7 +117,7 @@ public class EnemyManager : MonoBehaviour
     /// </summary>
     public void LoadEnemy()
     {
-        if (currentWave >= GameManager.Instance.levelLoaderManager.levelInfo.levelDatas[GameManager.Instance.LevelID].levelWaveData.Count)
+        if (currentWave >= GameManager.Instance.levelLoaderManager.levelInfo.levelDatas[GameManager.Instance.LevelID].levelWaveData.Count ||GameManager.Instance.GameCurrent == GameState.Lose)
         {
             Debug.Log("Oyun Bitti!");
             return;
@@ -130,15 +141,14 @@ public class EnemyManager : MonoBehaviour
         levelEnemyType = Extensions.Shuffle<EnemyType>(levelEnemyType);//Dalgadaki düþmanlarý rasgele gelmesi için karýþtýrýlýyor // for random enemy
         isSpawnEnemy = true;
         CancelInvoke();
-        InvokeRepeating("LoadEnemyLoop", 0,timeBetweenEnemySpawn);
+        Invoke("SpawnEnemyLoop", timeBetweenEnemySpawn);
     }
 
     /// <summary>
     /// Create enemy 
     /// </summary>
-    private void LoadEnemyLoop()
+    private void SpawnEnemyLoop()
     {
-        
         if (isSpawnEnemy == false)
             return;
         if (enemyPerSpawn >= levelEnemyType.Count)//Dalgadaki tüm düþmanlarý oluþturulduysa fonksiyon devam etmiyor // if all enemies created
@@ -150,13 +160,13 @@ public class EnemyManager : MonoBehaviour
         switch (levelEnemyType[enemyPerSpawn])
         {
             case EnemyType.Enemy1:
-                go = PoolManager.Instance.GetObjectFromPool(PoolObjectType.Enemy1);
+                go = PoolManager.Instance.GetObjectFromPool(PoolObjectType.Enemy1,false);
                 break;
             case EnemyType.Enemy2:
-                go = PoolManager.Instance.GetObjectFromPool(PoolObjectType.Enemy2);
+                go = PoolManager.Instance.GetObjectFromPool(PoolObjectType.Enemy2,false);
                 break;
             case EnemyType.Enemy3:
-                go = PoolManager.Instance.GetObjectFromPool(PoolObjectType.Enemy3);
+                go = PoolManager.Instance.GetObjectFromPool(PoolObjectType.Enemy3,false);
                 break;
 
         }
@@ -173,6 +183,7 @@ public class EnemyManager : MonoBehaviour
         // New time between enemy spawn
         timeBetweenEnemySpawn -= levelWaveData[currentWave].timeDecrease; 
         timeBetweenEnemySpawn = Mathf.Clamp(timeBetweenEnemySpawn, levelWaveData[currentWave].minTimeBetweenEnemySpawn, levelWaveData[currentWave].timeBetweenEnemySpawn);
+        Invoke("SpawnEnemyLoop", timeBetweenEnemySpawn);
     }
     /// <summary>
     /// Create enemy added the list
@@ -213,6 +224,8 @@ public class EnemyManager : MonoBehaviour
             if(dieEnemies[i])
                 PoolManager.Instance.AddObjectFromPool(dieEnemies[i].poolType, dieEnemies[i].gameObject);
         }
+        CancelInvoke("SpawnEnemyLoop");
         enemies = new List<Enemy>();
+        escapedEnemyCount = 0;
     }
 }

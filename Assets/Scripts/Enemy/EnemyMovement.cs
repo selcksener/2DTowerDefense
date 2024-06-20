@@ -25,6 +25,7 @@ public class EnemyMovement : MonoBehaviour
         _nextWaypointIndex = 0;
         _nextWaypoint = _enemyWaypointPath[_nextWaypointIndex];
         transform.position = _nextWaypoint.transform.position;
+        gameObject.SetActive(true);
         _isWalking = true;
         
     }

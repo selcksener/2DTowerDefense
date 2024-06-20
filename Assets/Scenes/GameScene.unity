@@ -16463,30 +16463,28 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelInfo: {fileID: 11400000, guid: 21782798b164094408e438f63017f49c, type: 2}
-  levelKey: 0000000001000000020000000400000005000000060000000300000007000000
-  cellKey: 
-  levelValue:
-  - color: {r: 1, g: 1, b: 1, a: 1}
+  levelGeneratorReferenceList:
+  - type: 0
     image: {fileID: 21300000, guid: f94f51fdf309f494a9bf768b3649b7ef, type: 3}
-  - color: {r: 1, g: 1, b: 1, a: 1}
+  - type: 1
     image: {fileID: 21300000, guid: 429d99d832441421090baca8dad3803b, type: 3}
-  - color: {r: 1, g: 1, b: 1, a: 1}
+  - type: 2
     image: {fileID: 21300000, guid: 6a7ee57ecfbc449be87ec75cd89b3332, type: 3}
-  - color: {r: 1, g: 1, b: 1, a: 1}
-    image: {fileID: 21300000, guid: 45e9369d64108419d86ddb9f0dd8ace1, type: 3}
-  - color: {r: 1, g: 1, b: 1, a: 1}
+  - type: 3
+    image: {fileID: 21300000, guid: 35f31845caf4846e08ad55287fa5c791, type: 3}
+  - type: 4
+    image: {fileID: 7482667652216324306, guid: 8689ccaaebd17b344b24cdd588fd7dd3, type: 3}
+  - type: 5
     image: {fileID: 21300000, guid: 80e3aff6b2c874fb4b8f2fd0e74488e2, type: 3}
-  - color: {r: 1, g: 1, b: 1, a: 1}
-    image: {fileID: 21300000, guid: c783733e7188b4a328de535059e9f873, type: 3}
-  - color: {r: 1, g: 1, b: 1, a: 1}
-    image: {fileID: 21300000, guid: 9e2ca4d47018c47ef8cad43877184e16, type: 3}
-  - color: {r: 1, g: 1, b: 1, a: 1}
-    image: {fileID: 21300000, guid: 4fcee3453810ae946b756c99d2422b76, type: 3}
+  - type: 6
+    image: {fileID: 21300000, guid: 764e6dfe03e52412bbc5d428522fa9a5, type: 3}
+  - type: 7
+    image: {fileID: 21300000, guid: 764e6dfe03e52412bbc5d428522fa9a5, type: 3}
   levelEnvironmentReference:
   - key: House1
     image: {fileID: 21300000, guid: 678b9c80c45ce42ffa094f1b85b3946f, type: 3}
   - key: House2
-    image: {fileID: 21300000, guid: 2036a4ddf2d104fb0ab6875bbd2037b1, type: 3}
+    image: {fileID: 21300000, guid: 0a080bd358929473b80c58a1230e1e32, type: 3}
   - key: Grass1
     image: {fileID: 21300000, guid: b91dd0d0770b14188b7f1973da796c46, type: 3}
   - key: Grass2
@@ -16576,7 +16574,7 @@ MonoBehaviour:
     image: {fileID: 21300000, guid: 1a4875f5cca454f078f4dcd1ab8513ea, type: 3}
   - neighbourIndex: []
     cellType: 6
-    image: {fileID: 21300000, guid: 43da6bca177a949c9aa9d63868d9c223, type: 3}
+    image: {fileID: 21300000, guid: 764e6dfe03e52412bbc5d428522fa9a5, type: 3}
   - neighbourIndex: []
     cellType: 7
     image: {fileID: 21300000, guid: 4fcee3453810ae946b756c99d2422b76, type: 3}
@@ -39583,11 +39581,12 @@ MonoBehaviour:
   levelManager: {fileID: 1695887635}
   buildManager: {fileID: 2043241090}
   enemyManager: {fileID: 1176124987}
-  borderManager: {fileID: 333762553}
+  levelLoaderManager: {fileID: 333762553}
   buildUIManager: {fileID: 2043241091}
   gridManager: {fileID: 519420033}
   _audio: {fileID: 762597259}
   levelID: 0
+  gameCurrent: 0
 --- !u!4 &762597257
 Transform:
   m_ObjectHideFlags: 0
@@ -72899,11 +72898,11 @@ RectTransform:
   m_Father: {fileID: 1338420396}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -61, y: 67}
-  m_SizeDelta: {x: 129.67, y: 129.26}
-  m_Pivot: {x: 1, y: 0}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -0.000061035156, y: 0}
+  m_SizeDelta: {x: 129.66992, y: 129.26001}
+  m_Pivot: {x: 1, y: 1}
 --- !u!114 &1420379232
 MonoBehaviour:
   m_ObjectHideFlags: 0

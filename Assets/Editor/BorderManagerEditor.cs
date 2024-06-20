@@ -221,17 +221,12 @@ public class BorderManagerEditor : Editor
     {
         if (_type != LevelGeneratorType.EnvironmentState)
         {
-            hit2D.collider.transform.GetChild(0).GetComponent<SpriteRenderer>().sprite = levelGenerator.borderManager.levelValue[levelGenerator.borderManager.levelKey.IndexOf(_type)].image;
-            hit2D.collider.transform.GetChild(0).GetComponent<SpriteRenderer>().color = levelGenerator.borderManager.levelValue[levelGenerator.borderManager.levelKey.IndexOf(_type)].color;
+            hit2D.collider.transform.GetChild(0).GetComponent<SpriteRenderer>().sprite = levelGenerator.borderManager.levelGeneratorInfo[_type];
         }
         else
         {
             hit2D.collider.transform.GetChild(0).GetComponent<SpriteRenderer>().sprite =
                 levelGenerator.borderManager.levelEnvironmentReference.First(x => x.key == levelGenerator.environmentName).image;
-            //levelGenerator.borderManager.levelEnvironmentReference.Where(x=>x.key == levelGenerator.environmentName).Select(y=>y.image);
-            hit2D.collider.transform.GetChild(0).GetComponent<SpriteRenderer>().color = Color.white;
         }
-        //hit2D.collider.GetComponent<SpriteRenderer>().sprite = levelGenerator.levelValue[levelGenerator.levelKey.IndexOf(_type)].image;
-        //hit2D.collider.GetComponent<SpriteRenderer>().color = levelGenerator.levelValue[levelGenerator.levelKey.IndexOf(_type)].color;
     }
 }

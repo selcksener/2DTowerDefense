@@ -21,16 +21,16 @@ MonoBehaviour:
       towerAttackDamage: 30
       towerAttackRange: 4
       towerTimeBetweenAttack: 1.5
-    - towerUpgradePrice: 25
+    - towerUpgradePrice: 35
       towerLevelID: 2
-      towerAttackDamage: 50
+      towerAttackDamage: 40
       towerAttackRange: 4.5
-      towerTimeBetweenAttack: 1.25
-    - towerUpgradePrice: 30
+      towerTimeBetweenAttack: 1.5
+    - towerUpgradePrice: 55
       towerLevelID: 3
-      towerAttackDamage: 60
+      towerAttackDamage: 50
       towerAttackRange: 5
-      towerTimeBetweenAttack: 1
+      towerTimeBetweenAttack: 1.25
     uiTowerLevelUpgradeInfo:
     - uiTowerLevelID: 1
       uiTowerAttackDamage: 1
@@ -39,27 +39,27 @@ MonoBehaviour:
     - uiTowerLevelID: 2
       uiTowerAttackDamage: 2
       uiTowerAttackRange: 2
-      uiTowerTimeBetweenAttack: 4
+      uiTowerTimeBetweenAttack: 3
     - uiTowerLevelID: 3
       uiTowerAttackDamage: 3
       uiTowerAttackRange: 3
-      uiTowerTimeBetweenAttack: 5
+      uiTowerTimeBetweenAttack: 4
   - towerID: 2
     towerSprite: {fileID: 21300002, guid: 2968c6c3757f3594094ac6707df1886f, type: 3}
     towerLevelUpgradeInfo:
-    - towerUpgradePrice: 25
+    - towerUpgradePrice: 30
       towerLevelID: 1
       towerAttackDamage: 40
       towerAttackRange: 3
       towerTimeBetweenAttack: 2
-    - towerUpgradePrice: 30
+    - towerUpgradePrice: 45
       towerLevelID: 2
-      towerAttackDamage: 60
+      towerAttackDamage: 50
       towerAttackRange: 3.5
       towerTimeBetweenAttack: 1.75
-    - towerUpgradePrice: 35
+    - towerUpgradePrice: 65
       towerLevelID: 3
-      towerAttackDamage: 70
+      towerAttackDamage: 60
       towerAttackRange: 4
       towerTimeBetweenAttack: 1.5
     uiTowerLevelUpgradeInfo:
@@ -74,25 +74,25 @@ MonoBehaviour:
     - uiTowerLevelID: 3
       uiTowerAttackDamage: 4
       uiTowerAttackRange: 4
-      uiTowerTimeBetweenAttack: 4
+      uiTowerTimeBetweenAttack: 3
   - towerID: 3
     towerSprite: {fileID: 21300004, guid: 2968c6c3757f3594094ac6707df1886f, type: 3}
     towerLevelUpgradeInfo:
-    - towerUpgradePrice: 30
+    - towerUpgradePrice: 40
       towerLevelID: 1
       towerAttackDamage: 50
       towerAttackRange: 4
       towerTimeBetweenAttack: 3
-    - towerUpgradePrice: 35
+    - towerUpgradePrice: 55
       towerLevelID: 2
-      towerAttackDamage: 70
+      towerAttackDamage: 60
       towerAttackRange: 4.5
       towerTimeBetweenAttack: 2.5
-    - towerUpgradePrice: 40
+    - towerUpgradePrice: 70
       towerLevelID: 3
-      towerAttackDamage: 90
+      towerAttackDamage: 70
       towerAttackRange: 5
-      towerTimeBetweenAttack: 2
+      towerTimeBetweenAttack: 2.5
     uiTowerLevelUpgradeInfo:
     - uiTowerLevelID: 1
       uiTowerAttackDamage: 3
@@ -105,4 +105,4 @@ MonoBehaviour:
     - uiTowerLevelID: 3
       uiTowerAttackDamage: 5
       uiTowerAttackRange: 5
-      uiTowerTimeBetweenAttack: 3
+      uiTowerTimeBetweenAttack: 2

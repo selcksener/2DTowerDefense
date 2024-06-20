@@ -21,7 +21,6 @@ public class TowerButton : MonoBehaviour
     /// </summary>
     public void OnMouseDownTrigger()
     {
-        Debug.Log("mouseDown");
         buildManager.TowerSelected(this);
     }
     /// <summary>
@@ -30,7 +29,6 @@ public class TowerButton : MonoBehaviour
     /// </summary>
     public void OnMouseDragTrigger()
     {
-        Debug.Log("drag");
         buildManager.TowerDrag(this);
 
     }

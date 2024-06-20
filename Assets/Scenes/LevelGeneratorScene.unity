@@ -15323,33 +15323,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72385ce6806d7274688a0e74acc92909, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  serializationData:
-    SerializedFormat: 2
-    SerializedBytes: 
-    ReferencedUnityObjects: []
-    SerializedBytesString: 
-    Prefab: {fileID: 0}
-    PrefabModificationsReferencedUnityObjects: []
-    PrefabModifications: []
-    SerializationNodes: []
   levelInfo: {fileID: 11400000, guid: 21782798b164094408e438f63017f49c, type: 2}
-  levelKey: 0000000001000000020000000400000005000000060000000300000007000000
-  levelValue:
-  - color: {r: 1, g: 1, b: 1, a: 1}
+  levelGeneratorReferenceList:
+  - type: 0
     image: {fileID: 21300000, guid: f94f51fdf309f494a9bf768b3649b7ef, type: 3}
-  - color: {r: 1, g: 1, b: 1, a: 1}
+  - type: 1
     image: {fileID: 21300000, guid: 429d99d832441421090baca8dad3803b, type: 3}
-  - color: {r: 1, g: 1, b: 1, a: 1}
+  - type: 2
     image: {fileID: 21300000, guid: 6a7ee57ecfbc449be87ec75cd89b3332, type: 3}
-  - color: {r: 1, g: 1, b: 1, a: 1}
-    image: {fileID: 21300000, guid: 45e9369d64108419d86ddb9f0dd8ace1, type: 3}
-  - color: {r: 1, g: 1, b: 1, a: 1}
-    image: {fileID: 21300000, guid: 80e3aff6b2c874fb4b8f2fd0e74488e2, type: 3}
-  - color: {r: 1, g: 1, b: 1, a: 1}
-    image: {fileID: 21300000, guid: c783733e7188b4a328de535059e9f873, type: 3}
-  - color: {r: 1, g: 1, b: 1, a: 1}
+  - type: 3
     image: {fileID: 21300000, guid: 9e2ca4d47018c47ef8cad43877184e16, type: 3}
-  - color: {r: 1, g: 1, b: 1, a: 1}
+  - type: 4
+    image: {fileID: 7482667652216324306, guid: 8689ccaaebd17b344b24cdd588fd7dd3, type: 3}
+  - type: 5
+    image: {fileID: 21300000, guid: 80e3aff6b2c874fb4b8f2fd0e74488e2, type: 3}
+  - type: 6
+    image: {fileID: 21300000, guid: 764e6dfe03e52412bbc5d428522fa9a5, type: 3}
+  - type: 7
     image: {fileID: 21300000, guid: 4fcee3453810ae946b756c99d2422b76, type: 3}
   levelEnvironmentReference:
   - key: Grass1
@@ -15370,6 +15360,10 @@ MonoBehaviour:
     image: {fileID: 21300000, guid: bf30bd0cba651466296f6f3a7477a843, type: 3}
   - key: Tree3
     image: {fileID: 21300000, guid: b743ad5b5fe7f446c8386019ba476c77, type: 3}
+  - key: House1
+    image: {fileID: 21300000, guid: 678b9c80c45ce42ffa094f1b85b3946f, type: 3}
+  - key: House2
+    image: {fileID: 21300000, guid: 0a080bd358929473b80c58a1230e1e32, type: 3}
   controlGridInfos:
   - index: {x: 1, y: 0}
     findChild: 0
@@ -24090,11 +24084,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef2dbaec5cfe5314fadc8f3c684b1f25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gridPrefab: {fileID: 2839649698580825800, guid: 64204be3b6377a54ea3afdeaa70dcbf7, type: 3}
+  _gridPrefab: {fileID: 2839649698580825800, guid: 64204be3b6377a54ea3afdeaa70dcbf7, type: 3}
   _width: 19
   _height: 13
-  gridSize: 1
-  centerTileOfGrid: {fileID: 0}
   grid:
   - {fileID: 0}
   - {fileID: 0}
@@ -24345,7 +24337,6 @@ MonoBehaviour:
   - {fileID: 0}
   gridParent: {fileID: 235763833}
   cam: {fileID: 519420031}
-  cameraBorder: {x: 0, y: 0, z: 0}
   screen: {x: 458, y: 947}
   screenBounds: {x: 4.531667, y: 7.5497227}
   borderX: {x: 1.3511114, y: 1.3511114}
@@ -37090,8 +37081,9 @@ MonoBehaviour:
   levelManager: {fileID: 1695887635}
   buildManager: {fileID: 2043241090}
   enemyManager: {fileID: 1176124987}
-  borderManager: {fileID: 333762553}
+  levelLoaderManager: {fileID: 0}
   buildUIManager: {fileID: 0}
+  gridManager: {fileID: 0}
   _audio: {fileID: 0}
   levelID: 0
 --- !u!4 &762597257
@@ -37121,16 +37113,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 488a1d8bfe20a9e4c9edc50621fe3cb3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelPanel: {fileID: 1827019769}
-  menuMap: {fileID: 1029832757}
-  menuUI: {fileID: 1261282548}
-  gameUI: {fileID: 1338420395}
-  GameCurrentText: {fileID: 194669212}
-  winPanel: {fileID: 831827084}
-  defeatPanel: {fileID: 2039855387}
-  countDownText: {fileID: 0}
-  winTotalKilledText: {fileID: 0}
-  winEscapedEnemyText: {fileID: 0}
+  _levelPanel: {fileID: 0}
+  _menuMap: {fileID: 0}
+  _menuUI: {fileID: 0}
+  _gameUI: {fileID: 0}
+  _winPanel: {fileID: 0}
+  _defeatPanel: {fileID: 0}
+  _GameCurrentText: {fileID: 0}
+  _countDownText: {fileID: 0}
+  _winTotalKilledText: {fileID: 0}
+  _winEscapedEnemyText: {fileID: 0}
 --- !u!1 &763299440
 GameObject:
   m_ObjectHideFlags: 0
@@ -56031,7 +56023,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemies: []
   dieEnemies: []
-  enemyPrefab: {fileID: 8782979760681004564, guid: a140b268a1020af409bb745d568ecd78, type: 3}
   enemy1Prefab: {fileID: 8782979760681004564, guid: a140b268a1020af409bb745d568ecd78, type: 3}
   enemy2Prefab: {fileID: 8782979760681004564, guid: 9d71f020b97eb334f8716acd6416519d, type: 3}
   enemy3Prefab: {fileID: 8782979760681004564, guid: 20006b42425843a478de05a3fec4059e, type: 3}
@@ -82300,8 +82291,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83ba7ceff2e2c2e41af2fa8ffbe03d43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gridManager: {fileID: 519420033}
-  enemyWaypointInfo: []
+  _enemyWaypointInfo: []
   levelCells: []
 --- !u!4 &1695887636
 Transform:

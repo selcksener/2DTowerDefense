@@ -17,19 +17,22 @@ public class GameManager : Singleton<GameManager>
 
     [SerializeField] private AudioSource _audio;
     [SerializeField] private int levelID = 0;
-
+    [SerializeField] private GameState gameCurrent;
     public AudioSource Audio { get { return _audio; } }
     public int LevelID { get { return levelID; } set { levelID = value; } }
+    public GameState GameCurrent {  get { return gameCurrent; } set { gameCurrent = value; } }
 
     public override void Awake()
     {
         base.Awake();
         GameCurrentState -= GameCurrentStateListener;
         GameCurrentState += GameCurrentStateListener;
+        GameCurrent = GameState.StartGame;
     }
 
     private void GameCurrentStateListener(GameState _state, int _data)
     {
+        gameCurrent = _state;
         switch (_state)
         {
             case GameState.StartGame:
@@ -37,7 +40,7 @@ public class GameManager : Singleton<GameManager>
                 break;
             case GameState.NextLevel:
 
-                StartCoroutine(StartLevel(this.levelID + 1, 0.5f));
+                StartCoroutine(StartLevel((this.levelID + 1)%levelLoaderManager.levelInfo.levelDatas.Count, 0.5f));
                 break;
             case GameState.ResetLevel:
                 StartLevel(this.levelID);

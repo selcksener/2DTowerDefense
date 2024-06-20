@@ -9,7 +9,7 @@ public class ProjectTile : MonoBehaviour
     [SerializeField] private Transform startPosition;
     [SerializeField] private float destroyTimer = 2f;
     [SerializeField] public PoolObjectType poolType;
-
+    [SerializeField] private Collider2D collider;
     public int DamageAmount { get { return damageAmount; } }
 
     /// <summary>
@@ -21,6 +21,7 @@ public class ProjectTile : MonoBehaviour
     /// <param name="damage">Damage amount</param>
     public void FollowTarget(Transform startTransform,Enemy enemy, int damage)
     {
+        
         switch(poolType)
         {
             case PoolObjectType.Arrow:
@@ -37,6 +38,7 @@ public class ProjectTile : MonoBehaviour
         startPosition = startTransform;
         transform.localPosition = startPosition.localPosition;
         targetEnemy = enemy;
+        collider.enabled = true;
         StartCoroutine(MoveProjectTile());
     }
 
@@ -55,5 +57,8 @@ public class ProjectTile : MonoBehaviour
            PoolManager.Instance.AddObjectFromPool(PoolObjectType.Arrow,gameObject);
     }
 
-   
+   public void ColliderState(bool state)
+    {
+        collider.enabled = state;
+    }
 }

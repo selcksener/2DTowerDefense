@@ -104,5 +104,6 @@ public class LevelManager : MonoBehaviour
         {
             levelCells[i].ClearCell();
         }
+        _enemyWaypointInfo = new List<GameObject>();
     }
 }

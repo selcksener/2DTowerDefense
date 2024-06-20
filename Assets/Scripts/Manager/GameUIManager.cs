@@ -51,9 +51,9 @@ public class GameUIManager : MonoBehaviour
 
             case GameState.NextWave:
                 _GameCurrentText.text = "NextWave!/" + _data.ToString();
-
                 _countDown = 3;
-                StartCoroutine(PlayCountDown(false));
+                if (_state != GameState.Lose)
+                    StartCoroutine(PlayCountDown(false));
                 break;
             case GameState.Win:
                 _GameCurrentText.text = "Win!/" + _data.ToString();
@@ -63,7 +63,7 @@ public class GameUIManager : MonoBehaviour
                 break;
             case GameState.Lose:
                 _GameCurrentText.text = "Lose!/" + _data.ToString();
-                _defeatPanel.SetActive(false);
+                _defeatPanel.SetActive(true);
                 break;
             case GameState.PlayingGame:
                 _gameUI.SetActive(true);

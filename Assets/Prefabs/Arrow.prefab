@@ -99,11 +99,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageAmount: 30
-  projectType: 0
-  poolType: 6
   targetEnemy: {fileID: 0}
   startPosition: {fileID: 0}
   destroyTimer: 2
+  poolType: 6
+  collider: {fileID: 1534299965363027892}
 --- !u!61 &1534299965363027892
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -117,7 +117,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.42, y: -0.0011718664}
+  m_Offset: {x: -0.07082256, y: 0.0025084578}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 1, y: 0.5}
@@ -128,5 +128,5 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.84, y: 0.024094354}
+  m_Size: {x: 0.14164512, y: 0.01880038}
   m_EdgeRadius: 0

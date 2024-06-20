@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -30,8 +31,22 @@ public class Tower : MonoBehaviour
     {
         EnemyManager.EnemyCollideEvent -= EnemyCollideEventListener;
         EnemyManager.EnemyCollideEvent += EnemyCollideEventListener;
-    
+        GameManager.GameCurrentState -= GameCurrentStateListener;
+        GameManager.GameCurrentState += GameCurrentStateListener;
+
     }
+
+    private void GameCurrentStateListener(GameState state, int data)
+    {
+        switch(state)
+        {
+            case GameState.NextWave:
+                enemyInRange = new List<Enemy>();
+                targetEnemy = null;
+                break;
+        }
+    }
+
     /// <summary>
     /// Kule inþa edildikten sonra listeye kayýt ediliyor
     /// </summary>

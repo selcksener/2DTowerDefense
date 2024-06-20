@@ -128,13 +128,14 @@ public class Enemy : MonoBehaviour, IDamageable
             if (damageable != null)
             {
                 TakeDamage(damageable.DamageAmount);
+                damageable.ColliderState(false);
                 PoolManager.Instance.AddObjectFromPool(damageable.poolType, damageable.gameObject);
             }
         }
         if (collision.CompareTag("Finish"))
         {
             EnemyManager.EnemyCollideEvent.Invoke(EnemyCollideType.Escape, this);
-            Destroy(gameObject);
+            PoolManager.Instance.AddObjectFromPool(poolType,gameObject);
         }
     }
 
